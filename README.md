@@ -1,6 +1,6 @@
 # Store App
  
-A small project developed in C++ language, for the discipline of Algorithms and Data Structures. The program makes use of some functionality from the C++ Standard Template Library, to simulate the allocation and organization of classrooms for a Department. 
+A small project developed in C++ language, for the discipline of programming and development. The program makes use of some functionality from the C++ Standard Template Library, to simulate the allocation and organization of classrooms for a Department. 
  
 The idea behind the program is to simulate taking orders from a restaurant that sells through an app. Orders consist of a list of products and a delivery address. The "pedido" tag indicates the beginning of a new order and the "endereco" tag indicates the end of the order. Each product is represented by two lines. The first line informs the product type and the second line informs the product attributes.
 
