@@ -1,19 +1,13 @@
 #include "venda.hpp"
-
 #include <iomanip>
 
-// Venda::~Venda() {
-//     while (!m_pedidos.empty()) {
-//         delete m_pedidos.back();
-//         m_pedidos.pop_back();
-//     }
-// }
-
-void Venda::adicionaPedido(Pedido *p) {
+void Venda::adicionaPedido(Pedido* p)
+{
     m_pedidos.push_back(p);
 }
 
-void Venda::imprimeRelatorio() const {
+void Venda::imprimeRelatorio() const
+{
     int pedidos = 0;
     double total_vendas = 0;
     for (auto it = m_pedidos.begin(); it != m_pedidos.end(); it++) {

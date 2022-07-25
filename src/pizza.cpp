@@ -1,6 +1,7 @@
 #include "pizza.hpp"
 
-std::string Pizza::descricao() const {
+std::string Pizza::descricao() const
+{
 
     std::string descricao = std::to_string(this->m_qtd) + "X " + "Pizza " + this->_sabor + ", " + std::to_string(this->_pedacos) + " pedacos e ";
     if (this->_borda_recheada) {
@@ -12,11 +13,12 @@ std::string Pizza::descricao() const {
     return descricao;
 }
 
-Pizza::Pizza(const std::string &sabor,
-             int pedacos,
-             bool borda_recheada,
-             int qtd,
-             float valor_unitario) {
+Pizza::Pizza(const std::string& sabor,
+    int pedacos,
+    bool borda_recheada,
+    int qtd,
+    float valor_unitario)
+{
 
     this->_sabor = sabor;
     this->_pedacos = pedacos;
